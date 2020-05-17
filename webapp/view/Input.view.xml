@@ -1,0 +1,18 @@
+<mvc:View controllerName="demo.ExchangeRates.controller.Input" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m"
+	xmlns:f="sap.ui.layout.form">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<f:SimpleForm layout="ResponsiveGridLayout">
+							<f:content>
+								<ComboBox id="cmbCurrencies" showSecondaryValues="true"></ComboBox>
+							</f:content>
+						</f:SimpleForm>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
